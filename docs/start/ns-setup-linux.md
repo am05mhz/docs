@@ -38,10 +38,10 @@ Complete the following steps to set up NativeScript on your Linux development ma
 
 2. If you are running on a 64-bit system, install the runtime libraries for the ia32/i386 architecture.
 
-    <pre class="add-copy-button"><code class="language-terminal">sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 libstdc++6:i386
+    <pre class="add-copy-button"><code class="language-terminal">sudo apt-get install lib32z1 lib32ncurses6 lib32bz2-1.0 libstdc++6:i386
     </code></pre>
     If you encounter an error showing "Unable to locate package lib32bz2-1.0" then use
-    <pre class="add-copy-button"><code class="language-terminal">sudo apt-get install lib32z1 lib32ncurses5 libbz2-1.0:i386 libstdc++6:i386
+    <pre class="add-copy-button"><code class="language-terminal">sudo apt-get install lib32z1 lib32ncurses6 libbz2-1.0:i386 libstdc++6:i386
     </code></pre>
 
 3. Install the G++ compiler.
